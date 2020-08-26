@@ -6,12 +6,13 @@
 ## Installing via Composer (recommended)
 [Composer](https://getcomposer.org/) is a dependency management tool for PHP that allows you to declare the dependencies your project needs and installs them into your project. In order to use the Constant Contact PHP SDK through composer, you must add "constantcontact/constantcontact" as a dependency in your project's composer.json file.
 ```javascript
- {
-        "require": {
-            "constantcontact/constantcontact": "2.1.*"
-        }
+{
+    "require": {
+        "constantcontact/constantcontact": "2.1.*"
     }
+}
 ```
+
 
 ### Manual Installation
 If you are unable to install using composer, we have provided a zip file that includes a version of the dependencies at the time of our release, as well as our library. Unzip the vendor file in the standalone directory, and require the autoload.php file to use our methods.
